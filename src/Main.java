@@ -9,15 +9,24 @@ public class Main {
         int[] user = {1, 2, 3, 4, 5};
         //2task
         for (int i = 0; i < ar.length; i++) {
-            System.out.print(ar[i] + " ");
+            System.out.print(ar[i]);
+            if (i != ar.length -1) {
+                System.out.print(",");
+            }
         }
         System.out.println();
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+            System.out.print(arr[i]);
+            if (i != arr.length -1) {
+                System.out.print(",");
+            }
         }
         System.out.println();
-        for (int i = 0; i < user.length; i++) {
-            System.out.print(user[i] + " ");
+        for (int i = 0; i < user.length; i++){
+            System.out.print(user[i]);
+            if (i != user.length -1) {
+                System.out.print(",");
+            }
         }
         // 3 task
         System.out.println();
